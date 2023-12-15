@@ -1,0 +1,8 @@
+@import "_settings.scss";
+/* imports from components */ 
+@import "./components/banner.scss";
+@import "./components/navbar.scss";
+@import "./components/footer.scss";
+@import "./components/contact.scss";
+/* imports from pages */ 
+@import "./pages/home.scss";

@@ -1,0 +1,8 @@
+.projects{
+  display: flex;
+  justify-content: space-between;
+  &__card{
+  height:300px;
+  width: 300px;
+  background-color: blue;
+}}

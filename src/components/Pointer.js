@@ -1,3 +1,4 @@
+// Pointer.js
 import React, { useState, useEffect } from 'react';
 
 const Pointer = () => {
@@ -20,7 +21,11 @@ const Pointer = () => {
 
   return (
     <div>
-      <div className='pointer' style={{ left: position.x, top: position.y }}></div>
+      <div className='pointer' style={{ left: position.x, top: position.y }}>
+        <div className="box">
+          <div className="circle"></div>
+        </div>
+      </div>
       {trails.map((trail, index) => (
         <div key={index} className='trail' style={{ left: trail.x, top: trail.y }}></div>
       ))}
@@ -29,3 +34,4 @@ const Pointer = () => {
 };
 
 export default Pointer;
+

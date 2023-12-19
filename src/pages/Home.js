@@ -5,6 +5,7 @@ import Skills from '../components/Skills.js';
 import Titles from '../components/Titles.js';
 import Projects from '../components/Projects.js';
 import Pointer from '../components/Pointer.js';
+import Circles from '../components/Circles.js';
 
 
 
@@ -13,12 +14,13 @@ const Home = () => {
     <div>
       <Pointer/>
       <Banner/>
-      <Titles title="Skills"/>
+      <Titles title="SKILLS"/>
       <Skills/>
-      <Titles title="Projects"/>
+      <Titles title="PROJECT"/>
       <Projects/>
-      <Titles title="Contact"/>
-      <Contact/>
+      <Titles title="CONTACT"/>
+      <Contact />
+      <Circles/>
     </div>
   );
 };

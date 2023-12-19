@@ -2,35 +2,26 @@
 
 .pointer {
   position: fixed;
-  width: 20px;
-  height: 20px;
-  background-color: black;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  animation: 1s linear alternate boxMagic, 
-  ; /* Ajoute une animation continue de déformation */
-
-  @keyframes deform {
-    to {
-      transform: translate(-50%, -50%) scaleX(1.5) scaleY(0.8) rotate(10deg); /* Ajuste la déformation selon tes préférences */
-    }
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .trail {
   position: fixed;
-  width: 20px;
-  height: 20px;
-  background-color: black;
+  width: 35px;
+  height: 35px;
+  background-color: #4bc0c8;
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  animation: trailMove 0.4s linear forwards;
+  animation: trailMove 0.6s linear forwards;
 }
 
 @keyframes trailMove {
   to {
-    transform: translate(-50%, -50%) scale(0.4);
+    transform: translate(-50%, -50%) scale(0.45);
     opacity: 0;
   }
 }

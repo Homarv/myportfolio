@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Btn = () => {
+const Btn = ({ text, customClass }) => {
   return (
-    <div>
-      
+    <div className='btn-container'>
+      <div className={`btn ${customClass}`}>
+        {text}
+      </div>
     </div>
   );
 };

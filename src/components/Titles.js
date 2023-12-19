@@ -3,7 +3,7 @@ import React from 'react';
 const Titles = ({title}) => {
   return (
     <div className='title'>
-      {title}
+      <p>{title}</p>
     </div>
   );
 };

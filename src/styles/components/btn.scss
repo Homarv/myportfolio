@@ -1,0 +1,27 @@
+.btn-container {
+  display: flex;
+}
+
+.btn:hover {
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.88) -5px 5px;
+  border-color: black;
+  background-color: #7DDB35;
+}
+
+.btn {
+  transition: 0.15s;
+  box-shadow: rgb(0 0 0) 0px 0px 0px 1.5px;
+  border-radius: 3px;
+  padding: 5px;
+  &__banner{
+    margin-top: 20px;
+    box-shadow: rgb(0 0 0) 0px 0px 0px 4px;
+    font-size: 50px;
+    z-index: 10;
+  }
+}
+
+.btn__banner:hover{
+  box-shadow: rgba(0, 0, 0, 0.88) -7px 7px;
+}

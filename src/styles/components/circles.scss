@@ -1,0 +1,49 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.box{
+  position: relative;
+  color: black; 
+  cursor: pointer;
+  transition: transform 0.4s cubic-bezier(0.23,1.83,0.42,1.19);
+  transform: translate(-50%, -50%) ;
+}
+
+
+.circle{
+  width:20px;
+  height:20px;
+  border-radius: 50%;
+  border: solid 4px white;
+  animation: 1s linear infinite alternate boxMagic,
+  4s linear infinite spinning;
+  padding-top: 2px;
+}
+
+@keyframes boxMagic {
+  from{
+    box-shadow: 
+    0 0 0 #feac5e,
+    0 0 0 #c779d0,
+    0 0 0 #4bc0c8, 
+    0 0 0 #42db75,
+  }
+  to {
+    box-shadow: 
+    0 -3px 0 #feac5e,
+    -3px 0 0 #c779d0,
+    0 3px 0 #4bc0c8, 
+    3px 0 0 #42db75,
+  }
+}
+
+@keyframes spinning{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

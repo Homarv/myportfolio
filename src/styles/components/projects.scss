@@ -1,17 +1,22 @@
 .projects {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 150px;
+  flex-wrap: wrap;
 }
 
 .project-card {
   position: relative;
   height: 300px;
   width: 300px;
+  min-width: 300px;
+  margin: 30px;
 
   &:hover {
+    border: none;
+
     .overlay {
       opacity: 1;
-
     }
 
     .project-card__image {

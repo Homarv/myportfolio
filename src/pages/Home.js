@@ -4,7 +4,6 @@ import Contact from '../components/Contact.js';
 import Skills from '../components/Skills.js';
 import Titles from '../components/Titles.js';
 import Projects from '../components/Projects.js';
-import Pointer from '../components/Pointer.js';
 import Circles from '../components/Circles.js';
 
 
@@ -12,7 +11,6 @@ import Circles from '../components/Circles.js';
 const Home = () => {
   return (
     <div>
-      <Pointer/>
       <Banner/>
       <Titles title="SKILLS"/>
       <Skills/>

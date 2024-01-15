@@ -18,10 +18,13 @@ const Navbar = () => {
 						<Link to="/work">Work</Link>
 					</li>
 					<li className="navbar__link">
-						<Link to="/about">About Me</Link>
+						<Link to="/">About Me</Link>
 					</li>
 				</ul>
-				<Btn text="Contact" />
+				<a href="#contact">
+					<Btn text="Contact"/>
+				</a>
+
 			</div>
 		</nav>
 	);

@@ -11,6 +11,15 @@
   width: 300px;
   min-width: 300px;
   margin: 30px;
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__logo{
+    width: 40px;
+    padding: 5px;
+  }
 
   &:hover {
     border: none;
@@ -28,17 +37,11 @@
 
     .project-card__text {
       opacity: 1;
+      scale: 0.8;
     }
   }
 }
 
-.project-card__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-
-
-}
 
 .overlay {
   transition: 0.5s ease;
@@ -52,6 +55,6 @@
 
 .project-card__text {
   transition: 0.5s ease;
-  font-size: 40px;
+  font-size: 35px;
   opacity: 0;
 }

@@ -8,10 +8,11 @@ import ruby from '../assets/logo/ruby.svg'
 import javascript from '../assets/logo/javascript.svg'
 import jest from '../assets/logo/jest.svg'
 import sass from '../assets/logo/Sass.svg'
+import redux from '../assets/logo/redux.svg'
 
 const Skills = () => {
   return (
-    <div className='skills'>
+    <div className='skills' id='skills'>
       <div className='skills__categories'>
         <h2>Front-End</h2>
         <Skill image={react} text="React" />
@@ -31,6 +32,7 @@ const Skills = () => {
         <Skill image={github} text="Git & Github"/>
         <Skill image={jest} text="Jest"/>
         <Skill image={sass} text="Sass"/>
+        <Skill image={redux} text="Redux"/>
       </div>  
     </div>
   );

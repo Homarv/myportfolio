@@ -4,21 +4,18 @@ import Contact from '../components/Contact.js';
 import Skills from '../components/Skills.js';
 import Titles from '../components/Titles.js';
 import Projects from '../components/Projects.js';
-import Circles from '../components/Circles.js';
-
 
 
 const Home = () => {
   return (
     <div>
       <Banner/>
-      <Titles title="SKILLS"/>
+      <Titles title="SKILLS" id="skills" />
       <Skills/>
-      <Titles title="PROJECT"/>
+      <Titles title="PROJECTS" id="project"/>
       <Projects/>
-      <Titles title="CONTACT"/>
+      <Titles title="CONTACT" id="contact"/>
       <Contact />
-      <Circles/>
     </div>
   );
 };

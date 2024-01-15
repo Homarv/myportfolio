@@ -1,0 +1,32 @@
+.presentation_project{
+  display: flex;
+  justify-content: space-between;
+  &__image{
+    height: 300px;
+  }
+  &__description{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    p{
+      font-size: 30px;
+      text-align: end;
+    }
+  }
+}
+
+.github_link{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  .icon{
+    margin-right: 10px;
+    height: 30px;
+  }
+}
+
+.logo{
+  height: 40px;
+}

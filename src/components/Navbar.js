@@ -6,19 +6,19 @@ import logo from "../assets/logo/logoo.png"
 const Navbar = () => {
 	return (
 		<nav className="navbar">
-			<div className="logo-container">
+			<Link to ="/" className="logo-container">
 				<img src={logo} alt="Logo" className="logo-img" />
-			</div>
+			</Link>
 			<div className="navbar__links">
 				<ul>
 					<li className="navbar__link">
 						<Link to="/">Home</Link>
 					</li>
 					<li className="navbar__link">
-						<Link to="/work">Work</Link>
+						<a href="#skills">Skills</a>
 					</li>
 					<li className="navbar__link">
-						<Link to="/">About Me</Link>
+						<a href="#project">Projects</a>
 					</li>
 				</ul>
 				<a href="#contact">

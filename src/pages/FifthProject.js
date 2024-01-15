@@ -2,6 +2,13 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
+
+import javascript from '../assets/logo/javascript.svg'
+import sass from '../assets/logo/Sass.svg'
+
+
+
+
 const FifthProject = () => {
 	return (
 		<div>

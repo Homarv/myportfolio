@@ -7,7 +7,7 @@ const ThirdProject = () => {
 	return (
 		<div>
 			<a
-				href="https://github.com/Homarv?tab=overview&from=2023-12-01&to=2023-12-16"
+				href="https://github.com/Homarv/P11"
 				className="contact__link"
 			>
 				<FontAwesomeIcon icon={faGithub} className="contact__icon" />

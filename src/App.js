@@ -15,11 +15,11 @@ function App() {
 				{/*route parente Layout qui comprends la navigation et le Footer*/}
 				<Route element={<Layout />}>
 					<Route path="/" element={<Home />} />
-					<Route path="/first-project" element={<FirstProject />} />
-					<Route path="/second-project" element={<SecondProject />} />
-					<Route path="/third-project" element={<ThirdProject />} />
-					<Route path="/fourth-project" element={<FourthProject />} />
-					<Route path="/fifth-project" element={<FifthProject />} />
+					<Route path="/fisheye" element={<FirstProject />} />
+					<Route path="/sportsee" element={<SecondProject />} />
+					<Route path="/algojs" element={<ThirdProject />} />
+					<Route path="/bankapi" element={<FourthProject />} />
+					<Route path="/perso-project" element={<FifthProject />} />
 					{/* path="*" fonctionne si jamais l'url ne correspond à rien de dééclaré au dessus  */}
 					<Route path="*" element={<Home />} />
 				</Route>

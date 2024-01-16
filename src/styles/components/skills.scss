@@ -1,23 +1,24 @@
 .skills{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   &__categories{
     font-size: 25px;
     text-align: center;
+    margin: 40px;
   }
 }
 
-@media (max-width: $tablette) {
-  .navbar{
-    font-size: 10px;
+@media (max-width: $tablette ) {
+  .skills{
+    justify-content: center;
   }
+  
 }
-
 
 @media (max-width: $mobile ) {
   .skills{
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
   }
   
 }

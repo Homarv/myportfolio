@@ -28,3 +28,20 @@
 .btn__banner:hover{
   box-shadow: rgba(0, 0, 0, 0.88) -7px 7px;
 }
+
+
+@media (max-width: $tablette) {
+  .btn{
+    box-shadow: rgb(0 0 0) 0px 0px 0px 1px;
+    &__banner{
+    font-size: 30px;
+    box-shadow: rgb(0 0 0) 0px 0px 0px 2px;
+    }
+  }
+ 
+}
+
+
+@media (max-width: $mobile ) {
+  
+}

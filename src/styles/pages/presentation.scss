@@ -1,6 +1,8 @@
 .presentation_project{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top:50px;
   &__image{
     height: 300px;
   }
@@ -12,6 +14,7 @@
     align-items: end;
     p{
       font-size: 30px;
+      letter-spacing: 3px;
       text-align: end;
     }
   }
@@ -30,4 +33,24 @@
 .logo{
   height: 5px;
   margin: 8px;
+}
+
+
+@media (max-width: $tablette ) {
+  .presentation_project{
+    flex-wrap: wrap;
+    justify-content: center;
+    &__description{
+      margin-top: 50px;
+      align-items: start;
+    }
+    p{
+      text-align: start;
+    }
+  }
+}
+
+@media (max-width: $mobile ) {
+  
+  
 }

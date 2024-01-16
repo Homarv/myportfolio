@@ -1,17 +1,18 @@
+.contact{
+  text-align: center;
+  p{
+    font-size: 20px;
+    letter-spacing: 3px;  
+  }
+}
+
 .contact__icon{
   font-size: 40px;
-  margin-right: 40px;
+  margin: 40px;
 }
 
 .contact__icon:hover{
   transform: scale(1.1) rotate(10deg);
 }
 
-@media (max-width: $tablette) {
- 
-}
 
-
-@media (max-width: $mobile ) {
-  
-}

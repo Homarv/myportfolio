@@ -56,7 +56,11 @@ const Projects = () => {
       <Link to="/perso-project" className="project-card">
         <img className="project-card__image" src={BankAPI} alt="" />
         <div className="overlay">
-          <p className="project-card__text">Site de location de bien</p>
+          <p className="project-card__text">Site e-commerce</p>
+          <img src={react} alt="logo-react" className="project-card__logo"/>
+          <img src={sass} alt="logo-sass" className="project-card__logo"/>
+          <img src={redux} alt="logo-sass" className="project-card__logo"/>
+
         </div>
       </Link>
     </div>

@@ -14,8 +14,8 @@ const Home = () => {
       <Skills/>
       <Titles title="PROJECTS" id="project"/>
       <Projects/>
-      {/* <Titles title="CONTACT" id="contact"/>
-      <Contact /> */}
+      <Titles title="CONTACT" id="contact"/>
+      <Contact /> 
     </div>
   );
 };

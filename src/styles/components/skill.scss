@@ -1,38 +1,23 @@
+@import "../keyframes/fadeInUp.scss";
+
 .skill {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  color: transparent;
 
   &__logo {
     height: 20px;
     margin-right: 10px;
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes shine {
-  from {
-    background: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8, #42db75);
-    background-size: 200% 100%;
-    background-position: 100% 0;
-    color: transparent;
-  }
-  to {
-    background-position: -100% 0;
+    opacity: 0; 
   }
 }
 
 .animate-in-view {
   animation: fadeInUp 1s forwards;
+  color: black;
+  .skill__logo {
+    opacity: 1; 
+  }
 }

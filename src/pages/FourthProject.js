@@ -18,9 +18,16 @@ const FourthProject = () => {
 					La récupération de données se fait via une API  <br />
 					Le projet utlise Redux<br />
 				</p>
+
+				<div className="logos">
+         <img src={react} alt="logo-react" className="logo"/>
+         <img src={redux} alt="logo-redux" className="logo"/>
+         <img src={sass} alt="logo-sass" className="logo"/>
+        </div>
+
 				<a href="https://github.com/Homarv/Project-10-Bank-API" className="github_link">
 					<FontAwesomeIcon icon={faGithub} className="icon" />
-					<Btn text="View on Github"> </Btn>
+					<Btn text="View on Github" customClass="btn__git"> </Btn>
 				</a>
 			</div>
 		</div>

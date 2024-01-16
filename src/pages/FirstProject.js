@@ -3,12 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import FishEye from "../assets/images/FishEye.png";
 import Btn from "../components/Btn";
-
-
-import react from '../assets/logo/React-icon.svg'
 import javascript from '../assets/logo/javascript.svg'
 import sass from '../assets/logo/Sass.svg'
-import redux from '../assets/logo/redux.svg'
+
 
 const FirstProject = () => {
 	return (
@@ -18,11 +15,14 @@ const FirstProject = () => {
 			<div className="presentation_project__description">
 				<p>Une plateforme de photographe codé en HTML, SASS et Javascript !</p>
 
-        <img src={javascript} alt="logo-javascript" className="logo"/>
+        <div className="logos">
+         <img src={javascript} alt="logo-javascript" className="logo"/>
+         <img src={sass} alt="logo-sass" className="logo"/>
+        </div>
      
 				<a href="https://github.com/Homarv/Fisheye" className="github_link">
          <FontAwesomeIcon icon={faGithub} className="icon" />
-					<Btn text="View on Github"> </Btn>
+					<Btn text="View on Github" customClass="btn__git"> </Btn>
 				</a>
 			</div>
 		</div>

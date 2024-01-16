@@ -2,13 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import AlgoJS from '../assets/images/AlgoJS.png';
-import Btn from "../components/Btn";
-
-
-import react from '../assets/logo/React-icon.svg'
 import javascript from '../assets/logo/javascript.svg'
-import sass from '../assets/logo/Sass.svg'
-import redux from '../assets/logo/redux.svg'
+import Btn from "../components/Btn";
 
 const ThirdProject = () => {
 	return (
@@ -19,9 +14,14 @@ const ThirdProject = () => {
 				<p>
 					Un algorithme de recherche codé en Javascript !<br />
 				</p>
+
+				<div className="logos">
+         <img src={javascript} alt="logo-javascript" className="logo"/>
+        </div>
+
 				<a href="https://github.com/Homarv/P11" className="github_link">
 					<FontAwesomeIcon icon={faGithub} className="icon" />
-					<Btn text="View on Github"> </Btn>
+					<Btn text="View on Github" customClass="btn__git"> </Btn>
 				</a>
 			</div>
 		</div>

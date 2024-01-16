@@ -4,7 +4,6 @@ import BankAPI from '../assets/images/BankAPI.png';
 import AlgoJS from '../assets/images/AlgoJS.png';
 import Sportsee from '../assets/images/Sportsee.png';
 import { Link } from "react-router-dom";
-import { useInView } from 'react-intersection-observer';
 
 import react from '../assets/logo/React-icon.svg'
 import javascript from '../assets/logo/javascript.svg'
@@ -12,15 +11,19 @@ import sass from '../assets/logo/Sass.svg'
 import redux from '../assets/logo/redux.svg'
 
 const Projects = () => {
-
-  const [ref, inView] = useInView({
-    triggerOnce: false, // Déclencher une seule fois
-  });
-
   return (
     <div className="projects">
+      
+      <Link to="/fisheye" className="project-card">
+        <img className="project-card__image" src={FishEye} alt="" />
+        <div className="overlay">
+          <p className="project-card__text">Site pour photographe</p>
+          <img src={javascript} alt="logo-javascript" className="project-card__logo"/>
+          <img src={sass} alt="logo-sass" className="project-card__logo"/>
+        </div>
+      </Link>
 
-      <Link to="/bankapi" ref={ref} className={`project-card ${inView ? 'animate-in-view' : ''}`}>
+      <Link to="/bankapi" className="project-card">
         <img className="project-card__image" src={BankAPI} alt="" />
         <div className="overlay">
           <p className="project-card__text">Compte utilisateur bancaire</p>
@@ -30,16 +33,7 @@ const Projects = () => {
         </div>
       </Link>
       
-      <Link to="/fisheye" ref={ref} className={`project-card ${inView ? 'animate-in-view' : ''}`}>
-        <img className="project-card__image" src={FishEye} alt="" />
-        <div className="overlay">
-          <p className="project-card__text">Site pour photographe</p>
-          <img src={javascript} alt="logo-javascript" className="project-card__logo"/>
-          <img src={sass} alt="logo-sass" className="project-card__logo"/>
-        </div>
-      </Link>
-      
-      <Link to="/sportsee" ref={ref} className={`project-card ${inView ? 'animate-in-view' : ''}`}>
+      <Link to="/sportsee" className="project-card">
       <img className="project-card__image" src={Sportsee} alt="" />
 
         <div className="overlay">
@@ -49,7 +43,7 @@ const Projects = () => {
         </div>
       </Link>
 
-      <Link to="/algojs" ref={ref} className={`project-card ${inView ? 'animate-in-view' : ''}`}>
+      <Link to="/algojs" className="project-card">
         <img className="project-card__image" src={AlgoJS} alt="" />
         <div className="overlay">
           <p className="project-card__text">Moteur de recherche Javascript</p>
@@ -57,7 +51,9 @@ const Projects = () => {
         </div>
       </Link>
 
-      <Link to="/perso-project" ref={ref} className={`project-card ${inView ? 'animate-in-view' : ''}`}>
+    
+
+      <Link to="/perso-project" className="project-card">
         <img className="project-card__image" src={BankAPI} alt="" />
         <div className="overlay">
           <p className="project-card__text">Site de location de bien</p>

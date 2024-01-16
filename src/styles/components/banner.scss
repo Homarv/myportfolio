@@ -1,3 +1,5 @@
+@import '../responsivesvalues.scss';
+
 .banner{
   display: flex;
   justify-content: space-between;
@@ -11,6 +13,7 @@
   flex-direction: column;
   &__container{
     min-width: 300px;
+    max-width: 300px;
     height: 300px;
     border-radius: 50%; 
     overflow: hidden;
@@ -24,3 +27,36 @@
   }
 }
 
+@media (max-width: $tablette) {
+  .banner{
+  }
+  .presentation{
+    font-size: 50px;   
+    &__container{
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    max-height: 20px;
+    }
+  }
+}
+
+
+@media (max-width: $mobile ) {
+  .banner{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .presentation{
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    &__container{
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    }
+  }
+}

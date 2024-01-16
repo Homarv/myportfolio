@@ -7,3 +7,17 @@
   }
 }
 
+@media (max-width: $tablette) {
+  .navbar{
+    font-size: 10px;
+  }
+}
+
+
+@media (max-width: $mobile ) {
+  .skills{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}

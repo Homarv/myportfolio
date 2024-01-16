@@ -3,8 +3,8 @@ import React from 'react';
 const Circles = () => {
   return (
     <div className='container'>
-    <div class="box">
-      <div class="circle"></div>
+    <div className="box">
+      <div className="circle"></div>
     </div>
     </div>
   );

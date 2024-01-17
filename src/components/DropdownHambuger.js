@@ -9,23 +9,23 @@ const DropdownHambuger = () => {
 
 	return (
 		<div className="dropdown-hamburger">
-			<button onClick={() => setIsOpen(!isOpen)}>
+			<div className="dropdown-hamburger__btn" onClick={() => setIsOpen(!isOpen)}>
         <FontAwesomeIcon icon={faBars} />
-      </button>
+      </div>
 			{isOpen && (
 				<div className="dropdown-hamburger__links">
 					<ul>
-						<li className="navbar__link">
+						<li className="dropdown-hamburger__link">
 							<Link to="/">Home</Link>
 						</li>
-						<li className="navbar__link">
+						<li className="dropdown-hamburger__link">
 							<a href="#skills">Skills</a>
 						</li>
-						<li className="navbar__link">
+						<li className="dropdown-hamburger__link">
 							<a href="#project">Projects</a>
 						</li>
-						<li className="navbar__link">
-							<a href="#contact">Projects</a>
+						<li className="dropdown-hamburger__link border-bottom">
+							<a href="#contact">Contact</a>
 						</li>
 					</ul>
 				</div>

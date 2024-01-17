@@ -48,6 +48,9 @@
 @media (max-width: $mobile ) {
   .navbar{
     height: 100px;
+    &__links{
+      display:none ; 
+    }
   }
   .logo-container{
     width: 50px;

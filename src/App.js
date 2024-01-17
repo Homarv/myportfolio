@@ -14,7 +14,7 @@ function App() {
 			<Routes>
 				{/*route parente Layout qui comprends la navigation et le Footer*/}
 				<Route element={<Layout />}>
-					<Route path="/" element={<Home />} />
+					<Route path="/myportfolio" element={<Home />} />
 					<Route path="/fisheye" element={<FirstProject />} />
 					<Route path="/sportsee" element={<SecondProject />} />
 					<Route path="/algojs" element={<ThirdProject />} />

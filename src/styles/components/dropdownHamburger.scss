@@ -1,0 +1,11 @@
+@import "../responsivesvalues.scss";
+
+.dropdown-hamburger {
+	display: none;
+}
+
+@media (max-width: $mobile) {
+	.dropdown-hamburger {
+		display: block;
+	}
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Btn from "./Btn";
-import logo from "../assets/logo/logoo.png"
+import logo from "../assets/logo/logoMvp.png"
 import DropdownHambuger from "./DropdownHambuger";
 
 const Navbar = () => {

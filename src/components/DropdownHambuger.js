@@ -1,22 +1,35 @@
 import React from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { Link, useLocation } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const DropdownHambuger = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
+	const location = useLocation();
+
+  const handleHomeClick = () => {
+    if (location.pathname === "/myportfolio") {
+      window.scrollTo(0, 0);
+    }
+  };
+
 	return (
 		<div className="dropdown-hamburger">
-			<div className="dropdown-hamburger__btn" onClick={() => setIsOpen(!isOpen)}>
-        <FontAwesomeIcon icon={faBars} />
-      </div>
+			<div
+				className="dropdown-hamburger__btn"
+				onClick={() => setIsOpen(!isOpen)}
+			>
+				<FontAwesomeIcon icon={faBars} />
+			</div>
 			{isOpen && (
 				<div className="dropdown-hamburger__links">
 					<ul>
 						<li className="dropdown-hamburger__link">
-							<Link to="/">Home</Link>
+							<Link to="/myportfolio" onClick={handleHomeClick}>
+								Home
+							</Link>
 						</li>
 						<li className="dropdown-hamburger__link">
 							<a href="#skills">Skills</a>

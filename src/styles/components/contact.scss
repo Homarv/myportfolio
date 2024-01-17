@@ -15,4 +15,12 @@
   transform: scale(1.1) rotate(10deg);
 }
 
+@media (max-width: $mobile) {
+  .contact{
+    margin-bottom: 100px;
+  }
+  p{
+    padding: 30px;
+  }
+}
 

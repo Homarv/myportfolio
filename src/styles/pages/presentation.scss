@@ -51,7 +51,8 @@
 }
 
 @media (max-width: $mobile ) {
-  .presentation_project__description{
+  .presentation_project{
+  &__description{
     align-items: center;
     p{
       text-align: center;
@@ -67,4 +68,4 @@
     text-align: center;
     margin-bottom: 40px;
   }
-}
+}}

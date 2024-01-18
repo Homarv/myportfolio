@@ -2,7 +2,9 @@
   display: flex;
 }
 
-.btn:hover {
+.btn:hover,
+.btn__banner:active
+{
   color: black;
   box-shadow: rgba(0, 0, 0, 0.88) -5px 5px;
   border-color: black;
@@ -25,7 +27,8 @@
   }
 }
 
-.btn__banner:hover{
+.btn__banner:hover,
+.btn__banner:active{
   box-shadow: rgba(0, 0, 0, 0.88) -7px 7px;
 }
 

@@ -2,8 +2,7 @@
   display: flex;
 }
 
-.btn,
-.btn:active {
+.btn {
   transition: 0.15s;
   box-shadow: rgb(0 0 0) 0px 0px 0px 1.5px;
   border-radius: 3px;
@@ -11,7 +10,7 @@
 }
 
 .btn:hover,
-.btn:active {
+.btn.touched {
   color: black;
   box-shadow: rgba(0, 0, 0, 0.88) -5px 5px;
   border-color: black;
@@ -19,7 +18,7 @@
 }
 
 .btn__banner:hover,
-.btn__banner:active {
+.btn__banner.touched {
   box-shadow: rgba(0, 0, 0, 0.88) -7px 7px;
 }
 

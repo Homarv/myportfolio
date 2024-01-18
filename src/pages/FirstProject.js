@@ -16,7 +16,7 @@ const FirstProject = () => {
 			<img className="presentation_project__image" src={FishEye} alt="" />
 
 			<div className="presentation_project__description">
-				<p>Une plateforme de photographe codé en HTML, SASS et Javascript !</p>
+				<p>A platform for photographers coded in HTML, SASS, and JavaScript!</p>
 
 				<div className="logos">
 					<img src={javascript} alt="logo-javascript" className="logo" />

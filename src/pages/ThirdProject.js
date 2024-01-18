@@ -16,9 +16,9 @@ const ThirdProject = () => {
 
 			<div className="presentation_project__description">
 				<p>
-					Un algorithme de recherche codé en Javascript !<br />
+					A search algorithm coded in Javascript!
+					<br />
 				</p>
-
 				<div className="logos">
 					<img src={javascript} alt="logo-javascript" className="logo" />
 				</div>

@@ -18,10 +18,11 @@ const FourthProject = () => {
 
 			<div className="presentation_project__description">
 				<p>
-					Un site de compte utilisateur bancaire avec React
+					A website for user bank accounts using React
 					<br />
-					La récupération de données se fait via une API <br />
-					Le projet utlise Redux
+					Data retrieval is done via an API
+					<br />
+					The project uses Redux
 					<br />
 				</p>
 

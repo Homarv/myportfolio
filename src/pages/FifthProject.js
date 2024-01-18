@@ -17,13 +17,15 @@ const FifthProject = () => {
 
 			<div className="presentation_project__description">
 				<p>
-					Un site e-commerce
+					An e-commerce website
 					<br />
-					Un back-end en Node JS <br />
-					Une base de données en MongoDB
+					A Node.js back-end
 					<br />
-					Un front en React <br />
-					Le projet utlise Redux
+					A MongoDB database
+					<br />
+					A React front-end
+					<br />
+					The project uses Redux
 					<br />
 				</p>
 
@@ -34,11 +36,13 @@ const FifthProject = () => {
 				</div>
 
 				<a
-					href="https://github.com/Homarv/Project-10-Bank-API"
+					href="https://github.com/Homarv/ProjectPerso"
 					className="github_link"
 				>
-					<FontAwesomeIcon icon={faGithub} customClass="btn__git" />
-					<Btn text="View on Github"> </Btn>
+					<FontAwesomeIcon icon={faGithub} className="icon" />
+					<Btn text="View on Github" customClass="btn__git">
+						{" "}
+					</Btn>
 				</a>
 			</div>
 		</div>

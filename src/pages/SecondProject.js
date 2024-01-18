@@ -17,9 +17,11 @@ const SecondProject = () => {
 
 			<div className="presentation_project__description">
 				<p>
-					Un tableau de Bord Analytique codé en React <br />
-					Le projet utilise la bibliothèque graphique Rechart <br />
-					La récupération de données se fait via une API
+					An Analytical Dashboard coded in React
+					<br />
+					The project uses the Rechart graphics library
+					<br />
+					Data retrieval is done via an API
 				</p>
 
 				<div className="logos">

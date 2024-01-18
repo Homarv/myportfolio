@@ -40,7 +40,9 @@ const Projects = () => {
         </div>
       </Link>
 
-      <Link to="/bankapi" className="project-card">
+      <Link to="/bankapi" className={`project-card ${isProjectTouched("bankapi") ? "touched" : ""}`}
+        onTouchStart={() => handleTouchStart("bankapi")}
+        onTouchEnd={handleTouchEnd}>
         <img className="project-card__image" src={BankAPI} alt="" />
         <div className="overlay">
           <p className="project-card__text">Compte utilisateur bancaire</p>
@@ -50,7 +52,9 @@ const Projects = () => {
         </div>
       </Link>
       
-      <Link to="/sportsee" className="project-card">
+      <Link to="/sportsee" className={`project-card ${isProjectTouched("sportsee") ? "touched" : ""}`}
+        onTouchStart={() => handleTouchStart("sportsee")}
+        onTouchEnd={handleTouchEnd}>
       <img className="project-card__image" src={Sportsee} alt="" />
 
         <div className="overlay">
@@ -60,7 +64,9 @@ const Projects = () => {
         </div>
       </Link>
 
-      <Link to="/algojs" className="project-card">
+      <Link to="/algojs" className={`project-card ${isProjectTouched("algojs") ? "touched" : ""}`}
+        onTouchStart={() => handleTouchStart("algojs")}
+        onTouchEnd={handleTouchEnd}>
         <img className="project-card__image" src={AlgoJS} alt="" />
         <div className="overlay">
           <p className="project-card__text">Moteur de recherche Javascript</p>
@@ -70,7 +76,9 @@ const Projects = () => {
 
     
 
-      <Link to="/perso-project" className="project-card">
+      <Link to="/perso-project" className={`project-card ${isProjectTouched("perso-project") ? "touched" : ""}`}
+        onTouchStart={() => handleTouchStart("perso-project")}
+        onTouchEnd={handleTouchEnd}>
         <img className="project-card__image" src={BankAPI} alt="" />
         <div className="overlay">
           <p className="project-card__text">Site e-commerce</p>

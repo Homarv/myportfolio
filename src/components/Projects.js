@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import FishEye from '../assets/images/FishEye.png';
 import BankAPI from '../assets/images/BankAPI.png';
 import AlgoJS from '../assets/images/AlgoJS.png';
@@ -11,10 +11,27 @@ import sass from '../assets/logo/Sass.svg'
 import redux from '../assets/logo/redux.svg'
 
 const Projects = () => {
+
+  const [touchedProject, setTouchedProject] = useState(null);
+
+  const handleTouchStart = (projectName) => {
+    setTouchedProject(projectName);
+  };
+
+  const handleTouchEnd = () => {
+    setTouchedProject(null);
+  };
+
+  const isProjectTouched = (projectName) => {
+    return touchedProject === projectName;
+  };
+
   return (
     <div className="projects">
       
-      <Link to="/fisheye" className="project-card">
+      <Link to="/fisheye" className={`project-card ${isProjectTouched("fisheye") ? "touched" : ""}`}
+        onTouchStart={() => handleTouchStart("fisheye")}
+        onTouchEnd={handleTouchEnd}>
         <img className="project-card__image" src={FishEye} alt="" />
         <div className="overlay">
           <p className="project-card__text">Site pour photographe</p>

@@ -27,7 +27,8 @@
     padding: 5px;
   }
 
-  &:hover {
+  &:hover, 
+  &.touched {
     border: none;
 
     .overlay {

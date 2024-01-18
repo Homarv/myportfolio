@@ -2,50 +2,43 @@
   display: flex;
 }
 
+.btn,
+.btn:active {
+  transition: 0.15s;
+  box-shadow: rgb(0 0 0) 0px 0px 0px 1.5px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
 .btn:hover,
-.btn__banner:active
-{
+.btn:active {
   color: black;
   box-shadow: rgba(0, 0, 0, 0.88) -5px 5px;
   border-color: black;
   background-color: #7DDB35;
 }
 
-.btn {
-  transition: 0.15s;
-  box-shadow: rgb(0 0 0) 0px 0px 0px 1.5px;
-  border-radius: 3px;
-  padding: 5px;
-  &__banner{
-    margin-top: 20px;
-    box-shadow: rgb(0 0 0) 0px 0px 0px 4px;
-    font-size: 50px;
-    z-index: 10;
-  }
-  &__git{
-    font-size:25px; 
-  }
-}
-
 .btn__banner:hover,
-.btn__banner:active{
+.btn__banner:active {
   box-shadow: rgba(0, 0, 0, 0.88) -7px 7px;
 }
 
-
 @media (max-width: $tablette) {
-  .btn{
+  .btn {
     box-shadow: rgb(0 0 0) 0px 0px 0px 1px;
-    &__banner{
-    font-size: 30px;
-    box-shadow: rgb(0 0 0) 0px 0px 0px 2px;
+    &__banner {
+      font-size: 30px;
+      box-shadow: rgb(0 0 0) 0px 0px 0px 2px;
     }
   }
- 
 }
 
-@media (max-width: $mobile ) {
-  .btn__git{
-    font-size: 20px;
+@media (max-width: $mobile) {
+  .btn {
+    box-shadow: rgb(0 0 0) 0px 0px 0px 1px;
+    &__banner {
+      font-size: 30px;
+      box-shadow: rgb(0 0 0) 0px 0px 0px 2px;
+    }
   }
 }

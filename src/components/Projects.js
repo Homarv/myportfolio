@@ -34,7 +34,7 @@ const Projects = () => {
         onTouchEnd={handleTouchEnd}>
         <img className="project-card__image" src={FishEye} alt="" />
         <div className="overlay">
-          <p className="project-card__text">Site pour photographe</p>
+          <p className="project-card__text">Photographer's website</p>
           <img src={javascript} alt="logo-javascript" className="project-card__logo"/>
           <img src={sass} alt="logo-sass" className="project-card__logo"/>
         </div>
@@ -45,7 +45,7 @@ const Projects = () => {
         onTouchEnd={handleTouchEnd}>
         <img className="project-card__image" src={BankAPI} alt="" />
         <div className="overlay">
-          <p className="project-card__text">Compte utilisateur bancaire</p>
+          <p className="project-card__text">Bank user account</p>
           <img src={react} alt="logo-react" className="project-card__logo"/>
           <img src={redux} alt="logo-sass" className="project-card__logo"/>
           <img src={sass} alt="logo-sass" className="project-card__logo"/>
@@ -58,7 +58,7 @@ const Projects = () => {
       <img className="project-card__image" src={Sportsee} alt="" />
 
         <div className="overlay">
-          <p className="project-card__text">Tableau de bord Analytics</p>
+          <p className="project-card__text">Analytics dashboard</p>
           <img src={react} alt="logo-react" className="project-card__logo"/>
           <img src={sass} alt="logo-sass" className="project-card__logo"/>
         </div>
@@ -69,7 +69,7 @@ const Projects = () => {
         onTouchEnd={handleTouchEnd}>
         <img className="project-card__image" src={AlgoJS} alt="" />
         <div className="overlay">
-          <p className="project-card__text">Moteur de recherche Javascript</p>
+          <p className="project-card__text">Javascript search engine</p>
           <img src={javascript} alt="logo-javascript" className="project-card__logo"/>
         </div>
       </Link>
@@ -81,7 +81,7 @@ const Projects = () => {
         onTouchEnd={handleTouchEnd}>
         <img className="project-card__image" src={BankAPI} alt="" />
         <div className="overlay">
-          <p className="project-card__text">Site e-commerce</p>
+          <p className="project-card__text">E-commerce website</p>
           <img src={react} alt="logo-react" className="project-card__logo"/>
           <img src={sass} alt="logo-sass" className="project-card__logo"/>
           <img src={redux} alt="logo-sass" className="project-card__logo"/>

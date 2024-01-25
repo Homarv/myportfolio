@@ -3,6 +3,7 @@ import FishEye from '../assets/images/FishEye.png';
 import BankAPI from '../assets/images/BankAPI.png';
 import AlgoJS from '../assets/images/AlgoJS.png';
 import Sportsee from '../assets/images/Sportsee.png';
+import Building from '../assets/images/building.png';
 import { Link } from "react-router-dom";
 
 import react from '../assets/logo/React-icon.svg'
@@ -79,7 +80,7 @@ const Projects = () => {
       <Link to="/perso-project" className={`project-card ${isProjectTouched("perso-project") ? "touched" : ""}`}
         onTouchStart={() => handleTouchStart("perso-project")}
         onTouchEnd={handleTouchEnd}>
-        <img className="project-card__image" src={BankAPI} alt="" />
+        <img className="project-card__image" src={Building} alt="" />
         <div className="overlay">
           <p className="project-card__text">E-commerce website</p>
           <img src={react} alt="logo-react" className="project-card__logo"/>

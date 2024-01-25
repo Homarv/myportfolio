@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.6e8e3b1f.css",
-    "main.js": "/myportfolio/static/js/main.275327c9.js",
+    "main.js": "/myportfolio/static/js/main.8102dcbd.js",
     "static/js/787.3503cf78.chunk.js": "/myportfolio/static/js/787.3503cf78.chunk.js",
     "static/media/FishEye.png": "/myportfolio/static/media/FishEye.27c39e237bdaedde87cb.png",
     "static/media/BankAPI.png": "/myportfolio/static/media/BankAPI.38d0a3d3192191591bcc.png",
     "static/media/canada-trail.jpg": "/myportfolio/static/media/canada-trail.44f9bda5c4c38bf25156.jpg",
     "static/media/AlgoJS.png": "/myportfolio/static/media/AlgoJS.2f6a1e9a2ba3a09da970.png",
+    "static/media/building.png": "/myportfolio/static/media/building.df203f53d0ea7e20f5b4.png",
     "static/media/Sportsee.png": "/myportfolio/static/media/Sportsee.f7f8669c6f686b9643b6.png",
     "static/media/logoMvp.png": "/myportfolio/static/media/logoMvp.28f170cb2ef163f96a2f.png",
     "static/media/PostgreSQL.svg": "/myportfolio/static/media/PostgreSQL.a3d9645f05f15518cbc84c2fa39c593d.svg",
@@ -20,11 +21,11 @@
     "index.html": "/myportfolio/index.html",
     "static/media/React-icon.svg": "/myportfolio/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
     "main.6e8e3b1f.css.map": "/myportfolio/static/css/main.6e8e3b1f.css.map",
-    "main.275327c9.js.map": "/myportfolio/static/js/main.275327c9.js.map",
+    "main.8102dcbd.js.map": "/myportfolio/static/js/main.8102dcbd.js.map",
     "787.3503cf78.chunk.js.map": "/myportfolio/static/js/787.3503cf78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e8e3b1f.css",
-    "static/js/main.275327c9.js"
+    "static/js/main.8102dcbd.js"
   ]
 }
